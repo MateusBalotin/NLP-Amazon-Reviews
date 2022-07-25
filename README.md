@@ -40,16 +40,16 @@ It's an evolution of the bag of words method, where it uses frequency that the w
 
 BERT is a very interesing method. <br><br>
  In normal word2vec using continous bag of words, we try to predict the word from it's context and with Skip Gram we try to predict the context with the word. The problem with this approach, is that the embedding is fixec. <br><br>
-  Which means it doesn't look at the context where the word is, but just at the word. <br><br>
+  Which means it doesn't look at the context where the word is, but just at the word. <br>
   
-  For exampke: <br><br>
+  For example: <br>
   
  <ul>
    <li> This judgment was not <b>fair</b></li>
    <li> This <b>fair</b> was amazing!!</li>
- </ul>
+ </ul> 
 
-  
+ 
   Word2vec would categorize or represent both words with very similiar vectors. But we know that despite being the same word, the meaning is totally different.<br><br>
   That's where BERT - Bidirectional Encoder for Transfomers, comes in to play.<br><br>
      
