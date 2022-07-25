@@ -51,7 +51,7 @@ BERT is a very interesing method. <br>
 
  
   Word2vec would categorize or represent both words with very similiar vectors. But we know that despite being the same word, the meaning is totally different.<br><br>
-  That's where BERT - Bidirectional Encoder for Transfomers, comes in to play.<br>
+  That's where BERT - Bidirectional Encoder for Transfomers, comes into play.<br>
      
   BERT looks into the context of the word. In the case of the above example, the vectors would be different.
 </p>
