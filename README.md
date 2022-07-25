@@ -39,7 +39,7 @@ It's an evolution of the bag of words method, where it uses frequency that the w
 <p>
 
 BERT is a very interesing method. <br><br>
- In normal word2vec using continous bag of words, we try to predict the word from it's context and with Skip Gram we try to predict the context with the word. The problem with this approach, is that the embedding is fixec. <br>
+ In normal word2vec using continous bag of words, we try to predict the word from it's context and with Skip Gram we try to predict the context with the word. The problem with this approach, is that the embedding is fixec. <br><br>
   Which means it doesn't look at the context where the word is, but just at the word. <br><br>
   
   For exampke: <br><br>
@@ -50,13 +50,13 @@ BERT is a very interesing method. <br><br>
  </ul>
 
   
-  Word2vec would categorize or represent both words with very similiar vectors. But we know that despite being the same word, the meaning is totally different.<br.<br>
-  That's where BERT - Bidirectional Encoder for Transfomers, comes in to play.<br>
+  Word2vec would categorize or represent both words with very similiar vectors. But we know that despite being the same word, the meaning is totally different.<br><br>
+  That's where BERT - Bidirectional Encoder for Transfomers, comes in to play.<br><br>
      
-  BERT looks into the context of the word. In the case of the above example, the vectors would be very different.
+  BERT looks into the context of the word. In the case of the above example, the vectors would be different.
 </p>
 
-<h1> CConclusion </h1>
+<h1> Conclusion </h1>
 
 We could see that despite the flaws of the bag of words methods, the model could categorize the sentiment of most reviews correctly. But as we would expect, there was a lot of uncertainty regarding that. <br><br>
 
