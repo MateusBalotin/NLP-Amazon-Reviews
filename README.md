@@ -30,7 +30,7 @@ TF-IDF is another method to transform words into vectors that the computer can r
 
 It's an evolution of the bag of words method, where it uses frequency that the word appeared on a certain text compared to the frequency it appeared on the whole dataset.
 
-<img = src "(https://imgur.com/a/pYM6zql)" >
+![TF-IDF FORMULA](/assets/tfidf.png)
 
 </p>
 
@@ -38,7 +38,38 @@ It's an evolution of the bag of words method, where it uses frequency that the w
 
 <p>
 
+BERT is a very interesing method. <br><br>
+ In normal word2vec using continous bag of words, we try to predict the word from it's context and with Skip Gram we try to predict the context with the word. The problem with this approach, is that the embedding is fixec. <br>
+  Which means it doesn't look at the context where the word is, but just at the word. <br><br>
+  
+  For exampke: <br><br>
+  
+ <ul>
+   <li> This judgment was not <b>fair</b></li>
+   <li> This <b>fair</b> was amazing!!</li>
+ </ul>
 
+  
+  Word2vec would categorize or represent both words with very similiar vectors. But we know that despite being the same word, the meaning is totally different.<br.<br>
+  That's where BERT - Bidirectional Encoder for Transfomers, comes in to play.<br>
+     
+  BERT looks into the context of the word. In the case of the above example, the vectors would be very different.
+</p>
 
+<h1> CConclusion </h1>
 
+We could see that despite the flaws of the bag of words methods, the model could categorize the sentiment of most reviews correctly. But as we would expect, there was a lot of uncertainty regarding that. <br><br>
+
+For TF-IDF it had a bit less uncertainty, but there wasn't much improvement. Trying new classification methods may change the result. <br><br>
+
+Unfortunately, I couldn't run BERT model on the dataset since it' too big and CPU can't handle it. But if everything goes well, BERT should be a much more robust method than those we tried. <br><br>
+
+Overall, there is quite a bit of things I can try and see if I can improve the results and the data visualization. <br><br>
+
+Thank you for reading and have a nice week!!! <br><br>
+
+<h1> References</h1>
+
+<p>
+  
 </p>
